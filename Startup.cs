@@ -27,7 +27,7 @@ namespace aspnetcore_hello
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World! Deploy ASP.NET Core to Heroku.");
+                await context.Response.WriteAsync("Hello World! Deploy ASP.NET Core to Heroku. Deploy on githup.");
             });
         }
     }
