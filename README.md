@@ -45,14 +45,19 @@ We have:
 
 - Create container:
 
-    `<i>docker run \<br />
-    -e 'ACCEPT_EULA=Y' \<br />
-    -e 'MSSQL_SA_PASSWORD=P@ssw0rd' \<br />
-    -p 1433:1433 \<br />
-    --name mssql-dev \<br />
-    -v /home/nv/mssql:/var/opt/mssql \<br />
-    -d --restart always microsoft/mssql-server-linux<br />
-    </i>`
+    `docker run \`
+
+    `-e 'ACCEPT_EULA=Y' \`
+
+    `-e 'MSSQL_SA_PASSWORD=P@ssw0rd' \`
+
+    `-p 1433:1433 \`
+
+    `--name mssql-dev \`
+
+    `-v /home/nv/mssql:/var/opt/mssql \`
+
+    `-d --restart always microsoft/mssql-server-linux`
 
 - SQL Server Run Inner
 
@@ -68,10 +73,15 @@ We have:
 - Create container.
 
     `docker run \`
+
     `-e POSTGRES_PASSWORD=P@ssw0rd \`
+
     `-p 5432:5432 \`
+
     `--name pg-dev \`
+
     `-v /home/nv/pgdata:/data \`
+    
     `-d --restart always postgres`
 
 - Postgresql Run Inner.
