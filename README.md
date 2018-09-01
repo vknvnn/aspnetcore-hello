@@ -34,7 +34,7 @@ We have:
 	
 		git push
 
-4. If you have any change from other source for your project. let user it to get your new code.
+### 4. If you have any change from other source for your project. let user it to get your new code.
 
 		git pull
 
