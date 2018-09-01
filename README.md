@@ -14,7 +14,7 @@ We have:
 6. Run first container on docker.
 7. Enjoy.
 
-#How to use command line on Githup, this is base command line:
+# How to use command line on Githup, this is base command line:
 
 1. create a repo on git
 
@@ -39,7 +39,7 @@ We have:
 		git pull
 
 
-#Docker with database images note.
+# Docker with database images note.
 
 1. Working with SQL Server image
 
