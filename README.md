@@ -45,14 +45,14 @@ Create Dockerfile on `C:\Users\ [Window UserName] \Desktop\Docker\aspnetcore-hel
 ### 3. Deploy the all on your Githup.
 
         git add .
-
-	git commit -m "this is a your command."
-		
-	git config --global user.email "vokenghiep@gmail.com"
-	
-	git config --global user.name "Nghiep Vo"
-	
-	git push
+        
+        git commit -m "this is a your command."
+                
+        git config --global user.email "vokenghiep@gmail.com"
+        
+        git config --global user.name "Nghiep Vo"
+        
+        git push
 
 ### 4. A Ubutun Server Enviroment to host docker.
 
@@ -94,15 +94,15 @@ This is base command line:
 
 ### 3. (Optional) if you have any change in your project let user the command line bellow to update on your project Githup.
 
-    git add .
+        git add .
 
-    git commit -m "this is a your command."
+        git commit -m "this is a your command."
     
-    git config --global user.email "vokenghiep@gmail.com"
+        git config --global user.email "vokenghiep@gmail.com"
 
-    git config --global user.name "Nghiep Vo"
-
-    git push
+        git config --global user.name "Nghiep Vo"
+        
+        git push
 
 ### 4. If you have any change from other source for your project. let user it to get your new code.
 
