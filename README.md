@@ -24,7 +24,7 @@ We have:
 
 3. (Optional) if you have any change in your project let user the command line bellow to update on your project Githup.
 
-    git add .
+        git add .
 
     git commit -m "this is a your command."
 	
@@ -53,20 +53,20 @@ We have:
     -v /home/nv/mssql:/var/opt/mssql \
     -d --restart always microsoft/mssql-server-linux
 
-- SQL Server Run Inner
+- SQL Server Run Inner:
 
     docker exec -it mssql-dev "bash"
 	
     /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'P@ssw0rd'
 
-- Exit
+- Exit:
     quit
 	
     exit
 
 2. Working with Postgresql image
 
-- Create container.
+- Create container:
 
     docker run \
     -e POSTGRES_PASSWORD=P@ssw0rd \
@@ -75,11 +75,11 @@ We have:
     -v /home/nv/pgdata:/data \   
     -d --restart always postgres
 
-- Postgresql Run Inner.
+- Postgresql Run Inner:
 
     docker exec -it pg-dev psql -U postgres
 
-- Exit.
+- Exit:
 
     \q
 
