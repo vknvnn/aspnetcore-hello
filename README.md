@@ -20,7 +20,7 @@ We have:
 
 2. Get repo
 
-    git clone https://github.com/vknvnn/docker-day-1.git
+        git clone https://github.com/vknvnn/docker-day-1.git
 
 3. (Optional) if you have any change in your project let user the command line bellow to update on your project Githup.
 
