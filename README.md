@@ -45,44 +45,33 @@ We have:
 
 - Create container:
 
-    `docker run \`
-
-    `-e 'ACCEPT_EULA=Y' \`
-
-    `-e 'MSSQL_SA_PASSWORD=P@ssw0rd' \`
-
-    `-p 1433:1433 \`
-
-    `--name mssql-dev \`
-
-    `-v /home/nv/mssql:/var/opt/mssql \`
-
-    `-d --restart always microsoft/mssql-server-linux`
+    `docker run \` 
+    `-e 'ACCEPT_EULA=Y' \` 
+    `-e 'MSSQL_SA_PASSWORD=P@ssw0rd' \` 
+    `-p 1433:1433 \` 
+    `--name mssql-dev \` 
+    `-v /home/nv/mssql:/var/opt/mssql \` 
+    `-d --restart always microsoft/mssql-server-linux` 
 
 - SQL Server Run Inner
 
-    `docker exec -it mssql-dev "bash"`
-    `/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'P@ssw0rd'`
+    `docker exec -it mssql-dev "bash"` 
+    `/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'P@ssw0rd'` 
 
 - Exit
-    `quit`
+    `quit` 
     `exit`
 
 2. Working with Postgresql image
 
 - Create container.
 
-    `docker run \\n` 
-
-    `-e POSTGRES_PASSWORD=P@ssw0rd \`
-
-    `-p 5432:5432 \`
-
-    `--name pg-dev \`
-
-    `-v /home/nv/pgdata:/data \`
-
-    `-d --restart always postgres`
+    `docker run \` 
+    `-e POSTGRES_PASSWORD=P@ssw0rd \` 
+    `-p 5432:5432 \` 
+    `--name pg-dev \` 
+    `-v /home/nv/pgdata:/data \`     
+    `-d --restart always postgres` 
 
 - Postgresql Run Inner.
 
