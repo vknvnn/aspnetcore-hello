@@ -70,15 +70,15 @@ Create Dockerfile on `C:\Users\ [Window UserName] \Desktop\Docker\aspnetcore-hel
 
         docker build -f aspnetcore-hello .
 
-    -f: By default run with Dockerfile file.
+-f: By default run with Dockerfile file.
 
-    -rm: Remove all containers mediate when the command runs successfully.
+-rm: Remove all containers mediate when the command runs successfully.
 
 ### 8. Run first container on docker.
 
         docker run -it aspnetcore-hello
 
-        -it: direct to run container with image aspnetcore-hello
+-it: direct to run container with image aspnetcore-hello
 
 ### 8. Enjoy.
 
