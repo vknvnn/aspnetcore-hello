@@ -7,23 +7,23 @@ We have:
 - Install .Net Core SDK.
 - Install Git
 - Install Visual Studio Code or Visual Studio 2017
+- Create a repo on the Githup (please following in How to use command line on Githup)
 - Create new project on CMD or PowerShell
 
         cd Desktop
+        
+        mkdir Docker
+
+        cd Docker
 
         mkdir aspnetcore-hello
 
-        mkdir Docker
+        cd aspnetcore-hello
 
     Result of CMD or PowerShell is C:\Users\ [Window UserName] \Desktop\aspnetcore-hello
 
         dotnet new web
-    
-    Create a repo on the Githup (please following in How to use command line on Githup)
 
-        cd Docker
-    
-    Copy `C:\Users\ [Window UserName] \Desktop\aspnetcore-hello` to `C:\Users\ [Window UserName] \Desktop\Docker\aspnetcore-hello`
 ### 2. Dockerfile.
 Create Dockerfile on `C:\Users\ [Window UserName] \Desktop\Docker\aspnetcore-hello` with content: 
 
@@ -44,7 +44,7 @@ Create Dockerfile on `C:\Users\ [Window UserName] \Desktop\Docker\aspnetcore-hel
 
 ### 3. Deploy the all on your Githup.
 
-    git add .
+        git add .
 
 	git commit -m "this is a your command."
 		
