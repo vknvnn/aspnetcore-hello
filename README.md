@@ -82,9 +82,3 @@ We have:
 - Exit:
 
 		\q
-
-
-
-
-
-
