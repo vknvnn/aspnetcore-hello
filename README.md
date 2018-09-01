@@ -72,7 +72,7 @@ We have:
 
 - Create container.
 
-    `docker run \`
+    `docker run \\n` 
 
     `-e POSTGRES_PASSWORD=P@ssw0rd \`
 
@@ -81,7 +81,7 @@ We have:
     `--name pg-dev \`
 
     `-v /home/nv/pgdata:/data \`
-    
+
     `-d --restart always postgres`
 
 - Postgresql Run Inner.
