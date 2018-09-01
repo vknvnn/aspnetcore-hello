@@ -129,6 +129,7 @@ This is base command line:
 		/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'P@ssw0rd'
 
 - Exit:
+
 		quit
 	
 		exit
