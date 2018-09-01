@@ -5,24 +5,24 @@ This is the fist day: Hello world about Microservice.
 I was created a enviroment that it's a way to study about docker for you.
 
 We have:
-1. Asp.net core project.
-2. Dockerfile.
-3. Deploy the all on your Githup.
-4. A Ubutun Server Enviroment to host docker.
+### 1. Asp.net core project.
+### 2. Dockerfile.
+### 3. Deploy the all on your Githup.
+### 4. A Ubutun Server Enviroment to host docker.
     - Install Docker.
-5. Pull your source on Ubuntu Server.
-6. Run first container on docker.
-7. Enjoy.
+### 5. Pull your source on Ubuntu Server.
+### 6. Run first container on docker.
+### 7. Enjoy.
 
 # How to use command line on Githup, this is base command line:
 
-1. create a repo on git
+### 1. create a repo on git
 
-2. Get repo
+### 2. Get repo
 
         git clone https://github.com/vknvnn/docker-day-1.git
 
-3. (Optional) if you have any change in your project let user the command line bellow to update on your project Githup.
+### 3. (Optional) if you have any change in your project let user the command line bellow to update on your project Githup.
 
         git add .
 
@@ -41,7 +41,7 @@ We have:
 
 # Docker with database images note.
 
-1. Working with SQL Server image
+### 1. Working with SQL Server image
 
 - Create container:
 
@@ -64,7 +64,7 @@ We have:
 	
 		exit
 
-2. Working with Postgresql image
+### 2. Working with Postgresql image
 
 - Create container:
 
