@@ -2,6 +2,8 @@
 
 1. How the Client Credentials is?
 
-    `client-credentials`
+    Open `client-credentials` project and start (Ctr + Shift + B and Ctr + F5 or F5 to debug). 
+
+    Goto `http://localhost:5000/.well-known/openid-configuration`
 
 2. 
