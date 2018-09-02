@@ -1,5 +1,5 @@
 
-# This is the fist day: Create New Enviroment for study Microservice.
+# DAY 1: Create New Enviroment for study Microservice.
 
 I was created a enviroment that it's a way to study about docker for you.
 
