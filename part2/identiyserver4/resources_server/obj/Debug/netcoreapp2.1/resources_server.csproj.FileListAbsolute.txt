@@ -1,0 +1,14 @@
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\bin\Debug\netcoreapp2.1\resources_server.deps.json
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\bin\Debug\netcoreapp2.1\resources_server.runtimeconfig.json
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\bin\Debug\netcoreapp2.1\resources_server.runtimeconfig.dev.json
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\bin\Debug\netcoreapp2.1\resources_server.dll
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.csprojAssemblyReference.cache
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.csproj.CoreCompileInputs.cache
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.RazorAssemblyInfo.cache
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.RazorAssemblyInfo.cs
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.AssemblyInfoInputs.cache
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.AssemblyInfo.cs
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.RazorTargetAssemblyInfo.cache
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\bin\Debug\netcoreapp2.1\resources_server.pdb
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.dll
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\resources_server\obj\Debug\netcoreapp2.1\resources_server.pdb
