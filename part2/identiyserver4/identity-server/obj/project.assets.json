@@ -11570,9 +11570,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nv\\Desktop\\microservice-with-docker\\part2\\identiyserver4\\identity-server\\identity_server_1.csproj",
-      "projectName": "identity_server_1",
-      "projectPath": "C:\\Users\\nv\\Desktop\\microservice-with-docker\\part2\\identiyserver4\\identity-server\\identity_server_1.csproj",
+      "projectUniqueName": "C:\\Users\\nv\\Desktop\\microservice-with-docker\\part2\\identiyserver4\\identity-server\\identity_server.csproj",
+      "projectName": "identity_server",
+      "projectPath": "C:\\Users\\nv\\Desktop\\microservice-with-docker\\part2\\identiyserver4\\identity-server\\identity_server.csproj",
       "packagesPath": "C:\\Users\\nv\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nv\\Desktop\\microservice-with-docker\\part2\\identiyserver4\\identity-server\\obj\\",
       "projectStyle": "PackageReference",

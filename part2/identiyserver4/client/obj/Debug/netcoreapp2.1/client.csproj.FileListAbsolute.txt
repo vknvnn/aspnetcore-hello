@@ -8,3 +8,4 @@ C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\client\obj\Deb
 C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\client\obj\Debug\netcoreapp2.1\client.AssemblyInfo.cs
 C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\client\obj\Debug\netcoreapp2.1\client.dll
 C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\client\obj\Debug\netcoreapp2.1\client.pdb
+C:\Users\nv\Desktop\microservice-with-docker\part2\identiyserver4\client\obj\Debug\netcoreapp2.1\client.csprojAssemblyReference.cache

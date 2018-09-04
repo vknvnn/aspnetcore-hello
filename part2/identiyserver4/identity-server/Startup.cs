@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace identity_server_1
+namespace identity_server
 {
     public class Startup
     {
@@ -11,7 +11,8 @@ namespace identity_server_1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddIdentityServer()
-                .AddDeveloperSigningCredential ()
+                .AddDeveloperSigningCredential()
+                .AddSigningCredential("")
                 .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryClients(Config.GetClients());
         }

@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="cer\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

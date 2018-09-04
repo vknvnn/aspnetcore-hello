@@ -1,7 +1,7 @@
 ﻿using IdentityServer4.Models;
 using System.Collections.Generic;
 
-namespace identity_server_1
+namespace identity_server
 {
     public class Config
     {
@@ -10,7 +10,8 @@ namespace identity_server_1
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1", "The API 1")
+                new ApiResource("api1", "The API 1"),
+                new ApiResource("api2", "The API 2")
             };
         }
 
@@ -30,8 +31,9 @@ namespace identity_server_1
                     {
                         new Secret("secret1".Sha256())
                     },
+                    
                     //scope that client has access to
-                    AllowedScopes = { "api1" }
+                    AllowedScopes = { "api1", "api2" }
                 }
             };
         }
