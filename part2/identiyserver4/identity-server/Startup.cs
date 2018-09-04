@@ -12,7 +12,7 @@ namespace identity_server
         {
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
-                .AddSigningCredential("")
+                //.AddSigningCredential("")
                 .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryClients(Config.GetClients());
         }
