@@ -10,8 +10,12 @@ namespace identity_server
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1", "The API 1"),
-                new ApiResource("api2", "The API 2")
+                // new ApiResource("api1", "The API 1") 
+                // { 
+                //     ApiSecrets = {new Secret("secret123".Sha256())}, 
+                //     Scopes = {new Scope("write") }
+                // },
+                // new ApiResource("api2", "The API 2")
             };
         }
 

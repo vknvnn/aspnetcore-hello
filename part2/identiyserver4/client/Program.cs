@@ -22,7 +22,7 @@ namespace client
 
             // request token
             var tokenClient = new TokenClient(disco.TokenEndpoint, "client1", "secret1");
-            var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api2");
+            var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");
 
             if (tokenResponse.IsError)
             {
@@ -46,7 +46,7 @@ namespace client
             {
                 var content = await response.Content.ReadAsStringAsync();
                 Console.WriteLine(JArray.Parse(content));
-            }
+             }
         }
     }
 }

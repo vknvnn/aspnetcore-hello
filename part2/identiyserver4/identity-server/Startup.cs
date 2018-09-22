@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 namespace identity_server
 {
@@ -11,10 +13,13 @@ namespace identity_server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddIdentityServer()
-                .AddDeveloperSigningCredential()
+                //.AddDeveloperSigningCredential()
+                .AddSigningCredential(new X509Certificate2(Path.Combine("cer", "IdentityServer4Auth.pfx"), "123456"))
                 //.AddSigningCredential("")
                 .AddInMemoryApiResources(Config.GetApiResources())
-                .AddInMemoryClients(Config.GetClients());
+                .AddInMemoryClients(Config.GetClients())
+                ;
+                
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
